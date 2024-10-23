@@ -1,3 +1,7 @@
+# Godot migration backups
+*.old
+*.old.[0-9]
+
 # Godot 4+ specific ignores
 .godot/
 

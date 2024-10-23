@@ -1,24 +1,50 @@
-# Compiled Object files
+# Build Directories
+[Bb]in
+
+# Dependencies
+[Ll]ib
+
+# Object Files
 *.o
+*.ko
 *.obj
+*.elf
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Linker Output
+*.ilk
+*.map
+*.exp
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dynamic Libraries
 *.dll
+*.so
+*.so.*
+*.dylib
 
-# Compiled Static libraries
-*.a
+# Static Libraries
 *.lib
+*.a
+*.la
+*.lo
 
 # Executables
 *.exe
+*.out
 
+# Code Coverage
+*.lst
+
+# ===
 # DUB
+# ===
+
 .dub
 docs.json
 __dummy.html
 docs/
-
-# Code coverage
-*.lst
